@@ -84,7 +84,6 @@ data_y = np.array(data_y, dtype=np.float32)
 
 train_x_concat, test_x_concat, train_y_concat, test_y_concat, valid_x_concat, valid_y_concat = [], [], [], [], [], []
 
-#计算两个分子相似性
 def custom_distance(X1,X2,gamma_d,gamma_a):
     distance = 0.0
     # Calculate distances for FP
@@ -298,7 +297,6 @@ def plot_scatter(x_train, y_train, x_test, y_test):
     ax.xaxis.set_ticks_position('both')
     ax.yaxis.set_ticks_position('both')
     ax.tick_params(axis='both', which='minor', direction='in', labelsize=22, pad=10, length=2)
-    # plt.savefig('F:/刘77的代码/化学/SVR/pic.png')
     return
 ##################################################################
 # ==================== training part =============================
