@@ -1,6 +1,5 @@
 import numpy as np
 
-#q2评估预测能力
 def f(o,p,q):
     o_mean = np.average(o)
     a = q-o_mean
