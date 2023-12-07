@@ -1,4 +1,4 @@
-# pairwise-molecular-embedding  
+# FPtand(pairwise molecular embedding)  
 ## Introduction
 FPtand model uses pairs of molecules as input to embed molecules, and uses like text-cnn modeling to predict molecular properties. 
 <br>The model is stored in **model8_fp**, and the files **fa_fp.npy** and **fd_fp.npy** are pairs of molecular data.
