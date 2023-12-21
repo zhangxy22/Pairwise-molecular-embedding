@@ -1,4 +1,4 @@
-name: last
+name: fptand
 channels:
   - defaults
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
