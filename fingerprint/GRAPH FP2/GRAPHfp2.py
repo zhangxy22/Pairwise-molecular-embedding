@@ -14,7 +14,7 @@ start_time = time.time()
 dataxd = pd.read_csv('gra_fd.csv')
 dataxa = pd.read_csv('gra_fa.csv')
 dataX = np.hstack((dataxd,dataxa))
-data = pd.read_csv('../../pce.csv')
+data = pd.read_csv('../pce.csv')
 dataY = data[['PCE']]
 print(dataX.shape, dataY.shape)
 
