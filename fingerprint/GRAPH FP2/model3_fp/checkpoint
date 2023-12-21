@@ -1,0 +1,6 @@
+model_checkpoint_path: "model3_fp-72"
+all_model_checkpoint_paths: "model3_fp-35"
+all_model_checkpoint_paths: "model3_fp-45"
+all_model_checkpoint_paths: "model3_fp-47"
+all_model_checkpoint_paths: "model3_fp-70"
+all_model_checkpoint_paths: "model3_fp-72"
