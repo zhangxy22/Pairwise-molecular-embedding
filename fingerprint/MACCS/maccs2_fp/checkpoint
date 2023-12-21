@@ -1,0 +1,6 @@
+model_checkpoint_path: "maccs2_fp-56"
+all_model_checkpoint_paths: "maccs2_fp-0"
+all_model_checkpoint_paths: "maccs2_fp-1"
+all_model_checkpoint_paths: "maccs2_fp-3"
+all_model_checkpoint_paths: "maccs2_fp-4"
+all_model_checkpoint_paths: "maccs2_fp-56"
