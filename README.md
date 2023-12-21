@@ -1,4 +1,4 @@
-# FPtand（pairwise molecular embedding）  
+# Pairwise molecular embedding  
 ## Introduction
 FPtand is a model using Text-CNN to generate molecular embedding based on donor and acceptor pair data in organic solar cell for predicting power conversion efficiency(PCE). 
 <br>The model is stored in **model8_fp**, and the files **fa_fp.npy** and **fd_fp.npy** are training data of acceptor and donor, respectively.
