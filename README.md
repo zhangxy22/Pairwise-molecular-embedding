@@ -1,12 +1,18 @@
-# Pairwise molecular embedding  
-## Introduction
-FPtand is a model using Text-CNN to generate molecular embedding based on donor and acceptor pair data in organic solar cell for predicting power conversion efficiency(PCE). 
+#Pairwise molecular embedding  
+The following programs are designed for generating pairwise molecular embedding and modeling for power conversion efficiency(PCE) of small organic molecular solar cell.
+ 
+## Details of programs
+**FPtand** is a folder containing the FPtand model that is using Text-CNN to generate molecular embedding based on donor and acceptor pair data with Mogan fingerprint in organic solar cell for predicting PCE. 
 <br>The model is stored in **model8_fp**, and the files **fa_fp.npy** and **fd_fp.npy** are training data of acceptor and donor, respectively.
 <br>**fp_Y.npy** is the file containing target PCE values, and **fp1.py** is the main program code.
-## Programs and Files:
-The **FPpara** is a comparative experimental model that manipulates the data in parallel to make a final prediction.
-<br>The **MLemb** includes experiments with four other baseline models: RF、SVR、Xgboost、 and gcforest. The inputs for the training and test models are featuremap_train.csv and featuremap_test.csv, respectively.
-<br>The **fingerprint** includes experiments to embed 4 different fingerprint tests, namely APfp、 CDKfp、GRAPHfp and MACCS. The model selected the best embedding effect for different fingerprint embedding, and then selected Morgan fingerprint to train the following model.
-<br>The **visualization** consists of embedding、 t-sne and shap interpretability. The first two parts are the embedding of the model using t-SNE and PCA to visualize the scatter plot. Shap reconstructs the model on the basis of the original data and adds some new data sources to explain the model's predictive ability. In the process of accurately predicting the results of the model, which fingerprints contribute more.
+
+**FPpara** is a folder containing a similar model as FPtand except that manipulates the donor and acceptor data in parallel to make a final prediction.
+
+**MLemb** includes  four baseline manchine learning models: RF、SVR、Xgboost、 and gcforest. The inputs for the training and test of models are featuremap_train.csv and featuremap_test.csv, respectively.
+
+**fingerprint** includes FPtand models with embedding from four types of fingerprints, namely APfp、 CDKfp、GRAPHfp and MACCS. 
+
+**visualization** consists of  t-SNE and Shap plot program for embedding. 
+
 ## Environment
 Configuring the environment according to **FPtand.yml** before running the code.
