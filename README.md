@@ -12,7 +12,7 @@ The following programs are designed for generating pairwise molecular embedding 
 
 **fingerprint** includes FPtand models with embedding from four types of fingerprints, namely APfp、 CDKfp、GRAPHfp and MACCS. 
 
-**visualization** consists of  t-SNE and Shap plot program for embedding. 
+**visualization** consists of  t-SNE and Shap analyses for embedding. 
 
 ## Environment
 Configuring the environment according to **FPtand.yml** before running the code.
