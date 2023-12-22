@@ -8,9 +8,9 @@ The following programs are designed for generating pairwise molecular embedding 
 
 **FPpara** is a folder containing a similar model as FPtand except that manipulates the donor and acceptor data in parallel to make a final prediction.
 
-**MLemb** includes  four baseline manchine learning models: RF、SVR、Xgboost、 and gcforest. The inputs for the training and test of models are featuremap_train.csv and featuremap_test.csv, respectively.
+**MLemb** includes  four baseline manchine learning models: RF, SVR, Xgboost and gcforest. The inputs for the training and test of models are featuremap_train.csv and featuremap_test.csv, respectively.
 
-**fingerprint** includes FPtand models with embedding from four types of fingerprints, namely APfp、 CDKfp、GRAPHfp and MACCS. 
+**fingerprint** includes FPtand models with embedding from four types of fingerprints, namely APfp,  CDKfp, GRAPHfp and MACCS. 
 
 **visualization** consists of  t-SNE and Shap analyses for embedding. 
 
